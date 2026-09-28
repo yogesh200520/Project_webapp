@@ -2,7 +2,7 @@ from django.http import HttpResponse, JsonResponse
 
 
 def home(request):
-    return HttpResponse("<h1>Finnally We have pushed our image on the dockerhub...</h1>")
+    return HttpResponse("<h1>Finally its now working</h1>")
 
 
 def hello_world(request):

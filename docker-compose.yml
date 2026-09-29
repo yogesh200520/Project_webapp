@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  webapp:
+    image: yogeshkatre/webapp:latest
+    container_name: webapp-container
+    build: .
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+

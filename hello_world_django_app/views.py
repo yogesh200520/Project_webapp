@@ -2,7 +2,7 @@ from django.http import HttpResponse, JsonResponse
 
 
 def home(request):
-    return HttpResponse("<h1>Paylagu.....</h1>")
+    return HttpResponse("<h1>Run using docker compose/h1>")
 
 
 def hello_world(request):

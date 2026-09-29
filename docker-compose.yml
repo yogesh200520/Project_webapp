@@ -5,6 +5,6 @@ services:
     container_name: webapp-container
     build: .
     ports:
-      - "8000:8000"
+      - "8000:8001"
     restart: unless-stopped
 
